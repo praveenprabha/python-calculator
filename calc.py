@@ -2,7 +2,7 @@ def add_value(x,y):
   return x + y
 
 def substract_value(x,y):
-  pass
+  return ( max(x,y) - min(x,y) )
 
 def multiply_value(x,y):
   pass
@@ -19,3 +19,4 @@ y = int(input('Enter Value for Y : ' ))
 print(x,y)
 
 print("Addition of Values {}".format(add_value(x,y)))
+print("Subtraction of Values {}".format(substract_value(x,y)))
